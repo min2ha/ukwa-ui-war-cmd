@@ -10,4 +10,4 @@ ENV SOLR_PASSWORD="none"
 COPY ./ukwa-ui-1.4.2.RELEASE.war /ROOT.war
 ENTRYPOINT ["/usr/bin/java"]
 CMD ["-jar", "/ROOT.war"]
-EXPOSE 8888
+EXPOSE 8080
