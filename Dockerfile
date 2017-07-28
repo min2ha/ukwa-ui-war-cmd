@@ -1,4 +1,4 @@
-FROM java:openjdk-8-jdk as builder
+FROM java:openjdk-8-jdk
 MAINTAINER Mindaugas Vidmantas "mindaugas.vidmantas@bl.uk"
 ENV SOLR_COLLECTION_SEARCH_PATH="http://192.168.45.241:8983/solr/collections/select?"
 ENV SOLR_FULL_TEXT_SEARCH_PATH="http://devsolr-proxy:8983/solr/all/select?"
