@@ -8,5 +8,5 @@ ENV SOLR_SHOW_STUB_DATA_SERVICE_NOT_AVAILABLE="true"
 ENV SOLR_USERNAME="none"
 ENV SOLR_PASSWORD="none"
 ENTRYPOINT ["/usr/bin/java"]
-CMD ["-jar", "./ukwa-ui-1.4.2.RELEASE.war"]
+CMD ["-jar", "ukwa-ui-1.4.2.RELEASE.war"]
 EXPOSE 8888
